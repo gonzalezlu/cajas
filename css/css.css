@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+header div{
+  margin: 25px 0px 25px 0px;
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+header ul{
+margin: 91.67px 0px 91.67px 0px;
+width: 700px;
+height: 66.66px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+header ul li{
+  list-style: none;
+  height: 66.66px;
+  width: 120px;
+}
+.google{
+  background-color:red;
+}
+.google a{
+  color: #fff;
+  text-decoration: none;
+
+}
+.drive{
+  background-color: yellow;
+}
+
+.drive a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.gmail{
+  background-color: green;
+
+}
+
+.gmail a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.calendar{
+  background-color: grey;
+}
+
+.calendar a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.classroom{
+  background-color: blue;
+
+}
+
+.classroom a{
+  color: #fff;
+  text-decoration: none;
+}
+.contain{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  padding-top: 150px;
+
+}
+
+.contain h1{
+    color: #fff;
+    width: 250px;
+    height: 25px;
+
+}
+
+.contain h2{
+  margin: 25px 0px 0px 0px;
+  color: #fff;
+  width: 450px;
+  height: 25px;
+}
+
+.contain div{
+  margin: 25px 0px 0px 0px;
+  background-color: #4a4a4a;
+  width: 250px;
+  height: 25px;
+  border-radius: 50px;
+  padding-top:5px;
+}
+
+.contain div a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.contain div:hover{
+  width: 300px;
+  height: 30px;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+
+.contenedor{
+  width: 100%;
+  height: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+
+}
+
+.contenedor div{
+  width: 200px;
+  height: 200px;
+}
+
+.uno{
+  background-image: url(../img/productouno.png);
+    background-repeat: no-repeat;
+}
+
+.dos{
+  background-image: url(../img/productodos.png);
+  background-repeat: no-repeat;
+
+}
+
+.tres{
+background-image: url(../img/productotres.png);
+background-repeat: no-repeat;
+}
